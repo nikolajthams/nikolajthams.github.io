@@ -1,0 +1,88 @@
+# News entries for the academic website
+# Each entry should have: date, title, text
+# Optional: pinned: true (to pin to front page regardless of date)
+
+- date: 2024-09-20
+  title: Paper Accepted at JMLR
+  text: |
+    Almost exactly five years after our first meeting about instrumental variable biases in timeseries, __*Identifying Causal Effects using Instrumental Time Series: Nuisance IV and Correcting for the Past*__, with *Rikke Søndergaard, Sebastian Weichwald* and *Jonas Peters* was accepted at JMLR today!
+  pinned: false
+
+- date: 2024-02-24
+  title: VIA Family Paper Published
+  text: |
+    __*Family‐based preventive intervention for children of parents with severe mental illness: A randomized clinical trial*__, with *Anne Dorothee Müller, Ida Gjøde* and others is now published in JCPP Advances. I very much enjoyed the collaboration!
+  pinned: false
+
+- date: 2023-11-26
+  title: Paper Accepted at IEEE TNNLS
+  text: |
+    Our paper __*Local Independence Testing in Point Processes*__, with *Niels Richard Hansen*, was accepted at IEEE Transactions on Neural Networks and Learning Systems.
+  pinned: false
+
+- date: 2022-11-27
+  title: Two Papers Accepted
+  text: |
+    Two papers accepted: "_Evaluating Robustness to Dataset Shift via Parametric Robustness Sets_" (w/ *M. Oberst* and *D. Sontag*) was accepted at NeurIPS 2022 and "_Statistical Testing under Distributional Shifts_" (w/ *S. Saenkyongam*, *N. Pfister* and *J. Peters*) at the JRSS-B
+  pinned: false
+
+- date: 2022-06-02
+  title: Research Visit to ClinicalML
+  text: |
+    My research visit at the [ClinicalML](http://clinicalml.org/) lab is coming to an end, and I have had a great time here! I'm very grateful to David Sontag for hosting me! <br>
+    Together with *Michael Oberst*, I have been working on an interesting project: __*Evaluating Robustness to Dataset Shift via Parametric Robustness Sets*__. We argue that considering bounded parametric shifts allow for interpreting the *worst-case* performance of a model, and we propose a second-order approximation of the loss under shift, which has a particularly pretty interpretation, when the shift occurs in an exponential family model. [[PDF]](https://arxiv.org/pdf/2205.15947.pdf) [[Code]](https://github.com/clinicalml/parametric-robustness-evaluation)
+  pinned: false
+
+- date: 2022-05-16
+  title: Paper Accepted at ICML 2022
+  text: |
+    Great news: Our paper on Invariant Ancestry Search, with *Phillip Mogensen* and *Jonas Peters* was accepted at ICML 2022. We look forward to present our work and to see many other interesting talks.
+  pinned: false
+
+- date: 2022-03-14
+  title: New Paper on Instrumental Time Series
+  text: |
+    New paper __*Identifying Causal Effects using Instrumental Time Series: Nuisance IV and Correcting for the Past*__ online now! In this paper, we provide a structured treatment of instrumental variable (IV) methods in time series data, by showing that valid IV models can be identified by representing the time series as a finite graph. We emphasize the need for adjusting for past states of the time series, to get valid instruments, and develop _Nuisance IV_, a modification of IV estimators. [[PDF]](https://arxiv.org/pdf/2203.06056.pdf) [[Code]](https://github.com/nikolajthams/its-time)
+  pinned: false
+
+- date: 2022-02-01
+  title: Invariant Ancestry Search
+  text: |
+    In our new paper __*Invariant Ancestry Search*__, we learn causal ancestors by using heterogeneity in data. We test sets for minimally invariance, and show that the union of minimaly invariant sets is ancestral. Our method retains level guarantees also when dimensionality is too large to exhaustively search all sets, and we apply our method in a genetic dataset with 6000 genes. [[PDF]](https://arxiv.org/pdf/2202.00913.pdf)[[CODE]](https://github.com/PhillipMogensen/InvariantAncestrySearch)
+  pinned: false
+
+- date: 2021-10-26
+  title: Local Independence Testing in Point Processes
+  text: |
+    In our new work, __*Local Independence Testing in Point Processes*__, we develop methods for learning causal structure in complex event data, such as firing of neurons in the brain. [[PDF]](https://arxiv.org/pdf/2110.12709.pdf)[[CODE]](https://github.com/nikolajthams/LIPP)
+  pinned: false
+
+- date: 2021-05-24
+  title: Statistical Testing under Distributional Shifts
+  text: |
+    What do you do if you observe data from a distribution `Q` but want to test a hypothesis about a different, but related, distribution `P`? In our recent paper, __*Statistical Testing under Distributional Shifts*__, we show how to test hypotheses in `P` by applying a test in a auxiliary dataset drawn by weighted resampling. [[PDF]](https://arxiv.org/pdf/2105.10821.pdf)
+  pinned: false
+
+- date: 2020-03-03
+  title: Causal Structure Learning from Time Series
+  text: |
+    Are p-values better better for detecting causal links than raw regression coefficients? Not always, we demonstrate in the paper __*Causal Structure Learning from Time Series*__, which is now on arXiv. [[PDF]](http://proceedings.mlr.press/v123/weichwald20a/weichwald20a.pdf)
+  pinned: false
+
+- date: 2019-12-14
+  title: Won Causality4Climate NeurIPS Challenge
+  text: |
+    In October, we participated in the [Causality4Climate NeurIPS challenge](https://causeme.uv.es/neurips2019/), and it was just announced that *we won!* Thanks to the organizers for hosting, and for letting us present our winning solution at NeurIPS! [[Code solutions]](https://github.com/sweichwald/tidybench) [[Slides]](docs/slides/pres_neurips_2019.pdf) [[University news]](https://www.math.ku.dk/english/about/news/cocala-winner-c4c/)
+  pinned: false
+
+- date: 2019-12-02
+  title: UAI 2020 Workflow Chair
+  text: |
+    I'm going to be the webmaster and workflow chair for the [UAI 2020](http://auai.org/uai2020/) conference. Please shoot me any suggestions you may have for the webpage.
+  pinned: false
+
+- date: 2019-11-22
+  title: Talk at CBS Workshop
+  text: |
+    I gave a talk *Local Independence Tests for Point Processes: Learning causality in event models* at the workshop *Time to Event Data and Machine Learning* in Copenhagen. [[Slides]](docs/slides/pres_cbs_2019.pdf)
+  pinned: false

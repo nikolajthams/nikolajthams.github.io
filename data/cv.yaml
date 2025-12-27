@@ -1,0 +1,130 @@
+personal:
+  name: Nikolaj Thams
+  location: London, UK
+  email: nikolajthams@gmail.com
+  website: https://nikolajthams.github.io/
+  # phone: (+45)25150629
+  # linkedin: https://linkedin.com/in/nikolajthams
+  # github: https://github.com/nikolajthams
+
+education:
+  - title: PhD in Statistics, with Prof. Jonas Peters
+    location: University of Copenhagen, Copenhagen, Denmark
+    start: 2019-09
+    end: 2022-08
+
+  - title: Master of Science, Statistics
+    location: University of Copenhagen, Copenhagen, Denmark
+    start: 2017-09
+    end: 2019-08
+
+  - title: Bachelor of Science, Mathematical Economics
+    location: University of Copenhagen, Copenhagen, Denmark
+    start: 2016-08
+    end: 2017-03
+
+  - title: Bachelor of Science, Mathematics
+    location: University of Copenhagen, Copenhagen, Denmark
+    start: 2013-08
+    end: 2016-07
+
+work:
+  - title: Senior Quantitative Researcher
+    location: G-Research, London, United Kingdom
+    start: 2022-11
+    end: present
+
+  - title: Intern
+    location: McKinsey & Co., Copenhagen, Denmark
+    start: 2018-05
+    end: 2018-06
+
+  - title: Student Actuary in Structured Solutions
+    location: Swiss Re, Copenhagen, Denmark and Zürich, Switzerland
+    start: 2016-08
+    end: 2018-02
+
+  - title: Student in DEFF, Danmarks Elektroniske Fag- og Forskningsbibliotek
+    location: Kulturstyrelsen (Danish Agency for Culture), Copenhagen, Denmark
+    start: 2016-08
+    end: 2018-02
+
+teaching:
+  - title: Teaching Assistant
+    location: University of Copenhagen, Copenhagen, Denmark
+    start: 2016-08
+    end: 2022-07
+    description: "Analysis 2 (2016, 2018), Measure- and Integration Theory (2016, 2018), Analysis 0 (2018, 2019), Optimization in Data Science (2019), Statistics A (2020), Models for Complex Systems (2021), Statistics for Biochemistry (2021)"
+
+competitions:
+  - title: Causality 4 Climate, NeurIPS competition
+    location: Copenhagen, Denmark
+    start: 2019-11
+    end: 2019-11
+    description: Winner
+
+  - title: Business Analytics Challenge
+    location: Copenhagen, Denmark
+    start: 2019-11
+    end: 2019-11
+    description: Winner
+
+  - title: International Physics Olympiad
+    location: Talinn, Estonia
+    start: 2012-07
+    end: 2012-07
+    description: Honourable mentions
+
+  - title: Nordic Mathematics Olympiad
+    location: Copenhagen, Denmark
+    start: 2012-03
+    end: 2012-03
+    description: Participant
+
+  - title: Danish Chemistry Olympiad
+    location: Copenhagen, Denmark
+    start: 2012-03
+    end: 2012-03
+    description: Participant
+
+academic_service:
+  - title: Journal Reviewer
+    location: JRSS-B and Journal of Mathematical Psychology
+    start: 2020
+    end: present
+
+  - title: Conference Reviewer
+    location: UAI, AISTATS, CLeaR
+    start: 2021
+    end: present
+
+  - title: Workflow Chair
+    location: UAI (Conference on Uncertainty in AI)
+    start: 2020
+    end: 2020
+
+  - title: SCIENCE PhD Committee Member
+    location: University of Copenhagen, Copenhagen, Denmark
+    start: 2019
+    end: 2022
+    description: "On the board of the PhD school, with responsibility to regulate and assure the quality of education for ~1100 PhD students at the science faculty."
+
+  - title: Head of Student's Council
+    location: MATH, University of Copenhagen, Copenhagen, Denmark
+    start: 2017
+    end: 2019
+    description: "In charge of career day, 'course videos', exchange events and several other tasks."
+
+  - title: Founder and Organizer
+    location: Statistical Study Trip to London and Oxford, London and Oxford, UK
+    start: 2018
+    end: 2018
+    description: "Applied for funding, made all arrangements with universities and companies."
+
+talks:
+  - "2022, Talk at the center for MLLS, Machine Learning for Life Sciences, Copenhagen"
+  - "2021, Danish Society for Theoretical Statistics 50 year anniversary, Copenhagen"
+  - "2021, Young Researchers Day, Copenhagen"
+  - "2021, DIREC Seminar, Nyborg Strand"
+  - "2021, European Young Statisticians Meeting, Virtual"
+  - "2019, Time to Event Data and Machine Learning Workshop, Copenhagen"

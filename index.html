@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikolaj Thams - Academic Homepage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="nav-placeholder"></div>
+
+    <main class="container">
+
+        <section class="about">
+            <img src="assets/img/profile.jpg" alt="Nikolaj Thams" class="profile-photo">
+            <div class="about-content">
+                <h2>About</h2>
+                <p>
+                    I am a Quantitative Researcher at <a href="https://www.gresearch.co.uk" target="_blank">G-Research</a> in London.
+                    Previously, I was a PhD student of Statistics at the <a href="https://www.math.ku.dk/english/research/spt/cocala/" target="_blank">Copenhagen Causality Lab</a> with <a href="https://people.math.ethz.ch/~jopeters/" target="_blank">Prof. Jonas Peters</a>.
+                </p>
+                <p>
+                    I have two bachelor degrees in Mathematics and Mathematical Economics and a master degree in Statistics, all from the University of Copenhagen. During my studies, I have spent semesters at University of Aarhus, University of Hong Kong, ETH Zürich and the Massachusetts Institute of Technology.
+                </p>
+                <p>
+                    My research interests are at the intersection of Machine Learning and Mathematical Statistics, including causal inference, graphical models, optimization and dynamical systems.
+                    Feel free to reach out!
+                </p>
+            </div>
+        </section>
+
+        <section class="recent-news">
+            <h2>Recent News</h2>
+            <ul class="news-list" id="news-list-home">
+                <li><span class="news-content">Loading news...</span></li>
+            </ul>
+        </section>
+    </main>
+
+    <script src="js/newsparser.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        // Load news on front page
+        document.addEventListener('DOMContentLoaded', async () => {
+            const newsListElement = document.getElementById('news-list-home');
+            if (newsListElement) {
+                try {
+                    const allNews = await loadNewsFromYAML();
+                    const frontPageNews = getFrontPageNews(allNews);
+                    newsListElement.innerHTML = renderFrontPageNews(frontPageNews);
+                } catch (error) {
+                    console.error('Error loading news:', error);
+                    newsListElement.innerHTML = '<li><span class="news-content">Error loading news.</span></li>';
+                }
+            }
+        });
+    </script>
+</body>
+</html>

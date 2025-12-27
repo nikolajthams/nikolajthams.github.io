@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Nikolaj Thams</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="nav-placeholder"></div>
+
+    <main class="container">
+        <div class="cv-content" id="cv-content">
+            <p class="loading">Loading CV...</p>
+        </div>
+    </main>
+
+    <script src="js/cvparser.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        // Load and render CV
+        document.addEventListener('DOMContentLoaded', async () => {
+            const cvContentElement = document.getElementById('cv-content');
+            if (cvContentElement) {
+                try {
+                    const cvData = await loadCVFromYAML();
+                    cvContentElement.innerHTML = renderCV(cvData);
+                } catch (error) {
+                    console.error('Error loading CV:', error);
+                    cvContentElement.innerHTML = '<p class="loading">Error loading CV data.</p>';
+                }
+            }
+        });
+    </script>
+</body>
+</html>
