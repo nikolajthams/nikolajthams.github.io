@@ -88,14 +88,9 @@ competitions:
     description: Participant
 
 academic_service:
-  - title: Journal Reviewer
-    location: JRSS-B and Journal of Mathematical Psychology
+  - title: Reviewer
+    location: JRSS-B, Journal of Mathematical Psychology, UAI, AISTATS, CLeaR
     start: 2020
-    end: present
-
-  - title: Conference Reviewer
-    location: UAI, AISTATS, CLeaR
-    start: 2021
     end: present
 
   - title: Workflow Chair
@@ -107,19 +102,16 @@ academic_service:
     location: University of Copenhagen, Copenhagen, Denmark
     start: 2019
     end: 2022
-    description: "On the board of the PhD school, with responsibility to regulate and assure the quality of education for ~1100 PhD students at the science faculty."
 
   - title: Head of Student's Council
     location: MATH, University of Copenhagen, Copenhagen, Denmark
     start: 2017
     end: 2019
-    description: "In charge of career day, 'course videos', exchange events and several other tasks."
 
   - title: Founder and Organizer
     location: Statistical Study Trip to London and Oxford, London and Oxford, UK
     start: 2018
     end: 2018
-    description: "Applied for funding, made all arrangements with universities and companies."
 
 talks:
   - "2022, Talk at the center for MLLS, Machine Learning for Life Sciences, Copenhagen"
