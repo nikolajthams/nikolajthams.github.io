@@ -2,6 +2,12 @@
 # Each entry should have: date, title, text
 # Optional: pinned: true (to pin to front page regardless of date)
 
+- date: 2026-05-20
+  title: New job!
+  text: |
+    I am joining the University of Copenhagen as a Tenure Track Assistant Professor at the Deparment of Mathematics. Thank you [G-Research](http://gresearch.com) for 3.5 amazing years. 
+  pinned: false
+
 - date: 2024-09-20
   title: Paper Accepted at JMLR
   text: |
