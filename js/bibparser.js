@@ -11,6 +11,9 @@
 function parseBibTeX(bibText) {
     const publications = [];
 
+    // Strip full-line % comments so commented-out fields are ignored
+    bibText = bibText.replace(/^[ \t]*%.*$/gm, '');
+
     // Split into individual entries using regex
     // Match @type{key, ... }
     const entryRegex = /@(\w+)\s*\{\s*([^,]+)\s*,\s*([\s\S]*?)^\}/gm;
